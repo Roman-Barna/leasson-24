@@ -1,0 +1,115 @@
+.nav__icon{
+    font-size: 25px;
+    margin-right: 20px;
+}
+.nav-item{
+    margin:0 20px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.img__cars{
+    width: 100%;
+    height: 100%;
+}
+.Gallary__title{
+    margin: 40px 0;
+}
+.background__img1{
+    background-image: url(../images/img.2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.background__img2{
+    background-image: url(../images/img.1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.background__img3{
+    background-image: url(../images/img.3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.background__img4{
+    background-image: url(../images/img.4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.center{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.Features__block{
+    height: 400px;
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+.form-floating > .form-select {
+  padding: 18px;
+  
+}
+.icons__down{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+.icons__box{
+    margin: 40px 0;
+}
+.centerede{
+    text-align: center;
+}
+.bold__text{
+    font-weight: 600;
+}
+
+
+.dnone__text{
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+
+.btn__img{
+    color: #fff;
+    border-color: #fff;
+}
+.background__img:hover .dnone__text{
+    display: block;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:850px) {
+    .display__none{
+        display: none;
+    }
+    .dfc{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+    
+@media screen and (max-width:600px) {
+    .display__nones{
+        display: none;
+    }
+    .dfc{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+    
